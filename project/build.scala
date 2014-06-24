@@ -10,7 +10,7 @@
      
     lazy val AISConsolidator = Project(
     id = "AISConsolidator",
-    base = file("AISConsolidator"),
+    base = file("AIS"),
     settings = defaultSettings ++ AkkaKernelPlugin.distSettings ++ Seq(
     libraryDependencies ++= Dependencies.AISConsolidator,
     distJvmOptions in Dist := "-Xms256M -Xmx1024M",
